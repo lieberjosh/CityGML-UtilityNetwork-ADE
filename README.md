@@ -6,7 +6,7 @@ The CityGML UtilityNetwork ADE was originally developed in 2012 at the Institute
 
 The following papers provide detailed information on the CityGML UtilityNetwork ADE:
 - Becker, T., Nagel, C. & Kolbe, T. H., 2011: Integrated 3D Modeling of Multi-utility Networks and Their Interdependencies for Critical Infrastructure Analysis. Advances in 3D Geo-Information Sciences, Lecture Notes in Geoinformation and Cartography, Kolbe, T. H., König, G. & Nagel, C. (eds.), Springer, Berlin Heidelberg, 1-20: http://mediatum.ub.tum.de/doc/1145740/358854.pdf
-- Becker, T., Nagel, C. & Kolbe, T. H., 2012: Semantic 3D Modeling of Multi-Utility Networks in Cities for Analysis and 3D Visualization. Progress and New Trends in 3D Geoinformation Sciences, Lecture Notes in Geoinformation and Cartography, Pouliot, J., Daniel, S., Hubert, F. & Zamyadi, A. (eds.), Springer, Berlin Heidelberg, 41-62: http://mediatum.ub.tum.de/doc/1145724/287720.pdf
+- Becker, T., Nagel, C. & Kolbe, T. H., 2013: Semantic 3D Modeling of Multi-Utility Networks in Cities for Analysis and 3D Visualization. Progress and New Trends in 3D Geoinformation Sciences, Lecture Notes in Geoinformation and Cartography, Pouliot, J., Daniel, S., Hubert, F. & Zamyadi, A. (eds.), Springer, Berlin Heidelberg, 41-62: http://mediatum.ub.tum.de/doc/1145724/287720.pdf
 - Kutzer, T. & Kolbe, T. H., 2016: Extending Semantic 3D City Models by Supply and Disposal Networks for Analysing the Urban Supply Situation. Publikationen der Deutschen Gesellschaft für Photogrammetrie, Fernerkundung und Geoinformation e.V., Volume 25, Kersten, T. P. (ed.), 36. Wissenschaftlich-Technische Jahrestagung der DGPF, June 7-9 in Bern, 382-394: http://www.dgpf.de/src/tagung/jt2016/proceedings/papers/36_DLT2016_Kutzner_Kolbe.pdf
 
 The [CityGML wiki](http://www.citygmlwiki.org/index.php?title=CityGML_UtilityNetworkADE) provides information on the UtilityNetwork ADE as well. The resources available at the CityGML wiki refer to version 0.9.0 of the UtilityNetwork ADE. This version served as basis for the further development of the ADE and for the resources provided on this github repository.
@@ -28,6 +28,14 @@ For further information on how to use ShapeChange, please refer to http://shapec
 The CityGML UtilityNetwork ADE can be used with **FME** for writing network data in the CityGML format. 
 - This requires importing the feature type definitions into the FME workspace, which can be done using this [FME feature types definition file](https://github.com/TatjanaKutzner/CityGML-UtilityNetwork-ADE/raw/master/FME/CityGML_UtilityNetworkADE_feature_types.xml).  
 - This [short tutorial](https://github.com/TatjanaKutzner/CityGML-UtilityNetwork-ADE/raw/master/FME/Importing_the%20CityGML_UtilityNetwork_ADE_in_FME.pdf) describes how to import the UtilityNetwork ADE feature types into an FME workspace.
+
+# Samples
+
+There are currently two public data samples for the UtilityNetwork ADE. They are both created **FME** using the schema file contained in this repository:
+
+1. [Water Pipe Network in Nanaimo, British Columbia, Canada](https://github.com/iboates/CityGML-UtilityNetwork-ADE-Nanaimo-Water-Network-Sample), created & maintained by [Isaac Boates](https://github.com/iboates). More information can be found in a [presentation at the 2017 CityGML UtilityNetwork ADE workshop](https://en.wiki.utilitynetworks.sig3d.org/images/upload/2017-12-08_UtiltyNetworkADE_Karlsruhe.pdf) and in the [supplementary information](https://en.wiki.utilitynetworks.sig3d.org/images/upload/2017-12-08_UtiltyNetworkADE_Supplementary_Info.pdf)
+
+2. [Sewer and Electrical Networks in Rotterdam, The Netherlands](https://github.com/XanderdenDuijn/CityGML-Utility-Network-ADE), created & maintained by [Xander den Duijn](https://github.com/XanderdenDuijn). More information can be found in a [presentation at the 2017 CityGML UtilityNetwork ADE workshop](https://en.wiki.utilitynetworks.sig3d.org/images/upload/UtilityNetworkADE_Karlsruhe_XanderdenDuijn.pdf)
 
 # More information
 
